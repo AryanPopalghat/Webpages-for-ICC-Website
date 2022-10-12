@@ -2,11 +2,12 @@ body{background-image: linear-gradient(
     to bottom,
    
 
-    rgba(193, 193, 150, 0.5),
-    rgba(183, 133, 182, 0.711)
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.711)
   ),url("https://th.bing.com/th/id/OIP.CPUvSIftcRygFBzrrQBXQgHaEK?w=309&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7" );
  
 }
+
 @keyframes example{
     0%{ border-style:ridge;border-color: black;}
     50%{border-style:ridge; border-color: white;}
@@ -25,7 +26,31 @@ body{background-image: linear-gradient(
     from{ margin-left:0em;}
     to {margin-left:15em;}
   } 
- 
+  #image img {
+    -webkit-transition: width 1s, height 1s;
+    transition: width 1s, height 1s;
+}
+#image img:hover {
+    width: 200%;
+    height: 150%;
+}
+#ir img {
+  -webkit-transition: width 1s, height 1s;
+  transition: width 1s, height 1s;
+}
+#ir img:hover {
+  width: 80%;
+  height: 80%;
+}
+#i1 img {
+  -webkit-transition: width 1s, height 1s;
+  transition: width 1s, height 1s;
+}
+#i1 img:hover {
+  width: 180%;
+  height: 480%;
+}
+
 .backimg{
     background-image:"Insync Family.jpeg";
     
@@ -155,9 +180,9 @@ body{background-image: linear-gradient(
     }
     .E3 {
       margin-left: 1.5em;
-      margin-top: 11.5em;
+      margin-top: 13%;
       padding:1.5em;
-      margin-right:2em;
+      margin-right:25%;
   }
   .textE3{
       overflow:hidden;
