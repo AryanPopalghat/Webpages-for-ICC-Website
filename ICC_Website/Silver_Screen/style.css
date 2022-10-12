@@ -1,7 +1,7 @@
 body{background-image: linear-gradient(
     to bottom,
-    rgba(193, 193, 150, 0.5),
-    rgba(183, 133, 182, 0.711)
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.711)
   ),url("https://th.bing.com/th/id/OIP.40kC7CMPVCo-VQXNj8YkKAHaCs?w=321&h=127&c=7&r=0&o=5&dpr=1.25&pid=1.7" )
 }
 @keyframes example{
@@ -22,7 +22,62 @@ body{background-image: linear-gradient(
     from{ margin-left:0em;}
     to {margin-left:15em;}
   } 
- 
+  #image img {
+    -webkit-transition: width 1s, height 1s;
+    transition: width 1s, height 1s;
+}
+#image img:hover {
+    width: 200%;
+    height: 150%;
+}
+#i2 img {
+  -webkit-transition: width 1s, height 1s;
+  transition: width 1s, height 1s;
+}
+#i2 img:hover {
+  width: 200%;
+  height: -10%;
+}
+#i3 img {
+  -webkit-transition: width 1s, height 1s;
+  transition: width 1s, height 1s;
+}
+#i3 img:hover {
+  width: 80%;
+  height: -10%;
+}
+#i4 img {
+  -webkit-transition: width 1s, height 1s;
+  transition: width 1s, height 1s;
+}
+#i4 img:hover {
+  width: 70%;
+  height: -10%;
+}
+#ir img {
+  -webkit-transition: width 1s, height 1s;
+  transition: width 1s, height 1s;
+}
+#ir img:hover {
+  width: 80%;
+  height: 80%;
+}
+#i1 img {
+  -webkit-transition: width 1s, height 1s;
+  transition: width 1s, height 1s;
+}
+#i1 img:hover {
+  width: 180%;
+  height: 480%;
+}
+#image1 img {
+  -webkit-transition: width 1s, height 1s;
+  transition: width 1s, height 1s;
+}
+#image1 img:hover {
+  width: 200%;
+  height: 600%;
+}
 .backimg{
     background-image:"FB_IMG_1659903039871.jpg";
     
@@ -157,7 +212,7 @@ body{background-image: linear-gradient(
   .textE3{
       overflow:hidden;
 border-right: .15em solid blueviolet;
-   margin-left:40em;
+   margin-left:70%;
    margin-right:-14em;
    background-color:burlywood;
    color:blueviolet;
