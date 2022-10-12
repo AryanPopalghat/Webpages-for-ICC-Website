@@ -1,7 +1,7 @@
 body{background-image: linear-gradient(
     to bottom,
-    rgba(193, 193, 150, 0.5),
-    rgba(183, 133, 182, 0.711)
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.711)
   ),url("https://www.wallpaperup.com/uploads/wallpapers/2014/09/27/458694/02f679fe4c5a6c13e9f2449040f0c0a8.jpg" )
 }
 @keyframes example{
@@ -22,7 +22,46 @@ body{background-image: linear-gradient(
     from{ margin-left:0em;}
     to {margin-left:15em;}
   } 
- 
+  #image img {
+    -webkit-transition: width 1s, height 1s;
+    transition: width 1s, height 1s;
+}
+#image img:hover {
+    width: 200%;
+    height: 150%;
+}
+#ir img {
+  -webkit-transition: width 1s, height 1s;
+  transition: width 1s, height 1s;
+}
+#ir img:hover {
+  width: 80%;
+  height: 80%;
+}
+#i2 img {
+  -webkit-transition: width 1s, height 1s;
+  transition: width 1s, height 1s;
+}
+#i2 img:hover {
+  width: 80%;
+  height: -20%;
+}
+#i3 img {
+  -webkit-transition: width 1s, height 1s;
+  transition: width 1s, height 1s;
+}
+#i3 img:hover {
+  width: 200%;
+  height: -20%;
+}
+#i1 img {
+  -webkit-transition: width 1s, height 1s;
+  transition: width 1s, height 1s;
+}
+#i1 img:hover {
+  width: 180%;
+  height: 480%;
+}
 .backimg{
     background-image:"https://scontent-bom1-2.xx.fbcdn.net/v/t39.30808-6/277169599_7312369208804064_6092349463968085726_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=e3f864&_nc_ohc=xLyDJ_idRygAX_YHDmG&_nc_ht=scontent-bom1-2.xx&oh=00_AT8oWUcEfstf7R-3FvG-P1mzCdDM2qHzF4Wl2MqZcMwG9g&oe=63491726";
     
@@ -150,9 +189,9 @@ body{background-image: linear-gradient(
     }
     .E3 {
       margin-left: 1.5em;
-      margin-top: 11.5em;
+      margin-top: 12.5%;
       padding:1.5em;
-      margin-right:2em;
+      margin-right:25%;
   }
   .textE3{
       overflow:hidden;
